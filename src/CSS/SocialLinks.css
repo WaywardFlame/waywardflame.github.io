@@ -1,0 +1,37 @@
+.SocialContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-content: start;
+}
+
+.SocialItem {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.SocialBox {
+    float: left;
+    margin-left: 30px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #272C8F;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.PageLink {
+    margin: 50px;
+}
+
+.PageLink a {
+    color: white;
+    font-size: 25px;
+}
