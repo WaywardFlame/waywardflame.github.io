@@ -7,31 +7,25 @@
 }
 
 .SocialItem {
-    width: 75px;
-    height: 75px;
+    width: max(75px, 4vw);
+    height: max(75px, 8vh);
     object-fit: cover;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 2vh 1vw 2vh 1vw;
 }
 
 .SocialBox {
-    float: left;
-    margin-left: 30px;
-    padding: 20px;
-    width: 300px;
-    height: 300px;
+    width: max(400px, 20vw);
+    height: max(400px, 30vh);
     background-color: #272C8F;
     border-radius: 10%;
     text-align: center;
 }
 
 .PageLink {
-    margin: 50px;
+    margin-top: max(50px, 4vh);
 }
 
 .PageLink a {
     color: white;
-    font-size: 25px;
+    font-size: clamp(20px, 20px + 0.5rem, 5rem); /* I don't really know what the correct max size should be. */
 }

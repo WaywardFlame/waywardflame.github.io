@@ -1,8 +1,9 @@
 .PreviewItem {
     float: left;
-    width: 200px;
+    width: max(200px, 16vw);
     text-align: center;
-    margin-left: 35px;
+    margin-left: max(17.5px, 1vw);
+    margin-right: max(17.5px, 1vw);
 }
 
 .PreviewTitle {
@@ -10,13 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: max(40px, 10vh);
     color: white;
+    font-size: clamp(10px, 25px, 3rem);
 }
 
 .PreviewItem img {
-    height: 200px;
-    width: 200px; /* Added this again because it didn't work in PreviewItem for some reason. */
+    height: max(200px, 31vh);
+    width: max(200px, 16vw); /* Added this again because it didn't work in PreviewItem for some reason. */
     border-radius: 10%;
     object-fit: cover;
 }
@@ -27,7 +29,13 @@
     justify-content: center;
     align-items: center;
     background-color: #272C8F; /* Tried using vendor prefixes, but I just couldn't get them to work for some reason. */
-    height: 200px;
+    height: max(200px, 31vh);
     color: white;
     border-radius: 10%;
+    font-size: clamp(10px, 25px, 3rem);
+}
+
+.PreviewList {
+    margin-left: max(0px, 2.75vw);
+    margin-right: max(0px, 1vw);
 }

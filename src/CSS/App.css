@@ -1,7 +1,50 @@
 #ProfileImage {
-    width: 300px;
-    height: 300px;
-    margin: 50px;
+    width: max(400px, 20vw);
+    height: max(400px, 30vh);
     border-radius: 10%;
     object-fit: cover;
+}
+
+.ProfileDivContainer {
+    margin-bottom: max(20px, 2vh);
+    padding-bottom: max(20px, 2vh);
+    border-bottom: 1px solid white;
+    width: max(400px, 20vw);
+}
+
+.SocialDivContainer {
+    float: left;
+    margin-left: max(30px, 1.5vw);
+    margin-right: max(30px, 1.5vw);
+}
+
+.ProjectDivContainer {
+    float: left;
+}
+
+.HeadingText {
+    color: white;
+    border-bottom: 1px solid;
+    /* padding: min(10px, 1vh); */
+    margin-left: max(25px, 1.5vw);
+}
+
+.HeadingText a {
+    color: white;
+}
+
+#Heading {
+    font-size: clamp(20px, 25px + 0.5rem, 5rem); /* I don't really know what the correct max size should be. */
+}
+
+#Subtitle {
+    font-size: clamp(10px, 10px + 0.5rem, 3rem); /* I don't really know what the correct max size should be. */
+    margin-bottom: 25px;
+}
+
+.PageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
