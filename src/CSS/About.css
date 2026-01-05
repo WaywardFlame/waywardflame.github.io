@@ -31,8 +31,8 @@
 
 .AboutBackground {
     padding: 20px;
-    width: max(400px, 40vw);
-    height: max(400px, 76.5vh);
+    width: max(350px, 40vw);
+    height: max(700px, 76.5vh);
     background-color: #272C8F;
     border-radius: 10%;
     margin-left: max(0px, 2.75vw);

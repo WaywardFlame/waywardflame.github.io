@@ -24,8 +24,8 @@ function Home(){
         <p className="HeadingText" id="Subtitle">Some projects I've worked on. You can view all of them <Link to="/projects">{"-->here.<--"}</Link></p>
         <ProjectPreviewList>
           <ProjectPreviewItem previewTitle="Ultra Gangster: A Twin Stick Shooter Game" previewText="A simple game I made while trying to learn Godot and C#." imagePath="Project Pictures/Ultra Gangster 2D/UltraGangster2DPic.png" />
-          <ProjectPreviewItem previewTitle="The Steel Hearted" previewText="A simple turned based game I made as part of a game programming class." imagePath="Project Pictures/SteelHeartedPic.png" />
-          <ProjectPreviewItem previewTitle="Aria of the Steel Hearted" previewText="Builds upon the world I came up before working on The Steel Hearted." imagePath="Project Pictures/Aria Script Preview.png" />
+          <ProjectPreviewItem previewTitle="The Steel Hearted" previewText="A simple turned based game I made as part of a game programming class." imagePath="Project Pictures/TheSteelHearted/SteelHeartedPic.png" />
+          <ProjectPreviewItem previewTitle="Aria of the Steel Hearted" previewText="Builds upon the world I came up before working on The Steel Hearted." imagePath="Project Pictures/AriaOfTheSteelHearted/Aria Script Preview.png" />
         </ProjectPreviewList>
       </div>
     </div>
