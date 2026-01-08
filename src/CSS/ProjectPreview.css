@@ -13,7 +13,7 @@
     align-items: center;
     height: max(40px, 10vh);
     color: white;
-    font-size: clamp(10px, 25px, 3rem);
+    font-size: clamp(15px, 1.5vw, 30px);
 }
 
 .PreviewItem img {
@@ -21,6 +21,11 @@
     width: max(200px, 16vw); /* Added this again because it didn't work in PreviewItem for some reason. */
     border-radius: 10%;
     object-fit: cover;
+    border: 1px solid transparent;
+}
+
+.PreviewItem img:hover {
+    border-color: red;
 }
 
 .PreviewText {
@@ -28,11 +33,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #272C8F; /* Tried using vendor prefixes, but I just couldn't get them to work for some reason. */
+    /* Tried using vendor prefixes, but I just couldn't get them to work for some reason. */
+    background-color: #272C8F;
     height: max(200px, 31vh);
     color: white;
     border-radius: 10%;
-    font-size: clamp(10px, 25px, 3rem);
+    /* font-size: 20px; */
+    font-size: clamp(15px, 1.5vw, 30px);
 }
 
 .PreviewList {

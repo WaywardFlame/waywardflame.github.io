@@ -1,0 +1,41 @@
+.IndividualProjectContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProjectHeadingText {
+    color: white;
+    border-bottom: 1px solid;
+    width: 90vw;
+    font-size: clamp(20px, 1.5vw, 30px);
+    margin: 10px;
+}
+
+.ProjectPicture {
+    width: max(200px, 16vw);
+    height: max(200px, 31vh);
+    object-fit: cover;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10%;
+    border: 1px solid transparent;
+}
+
+.ProjectPicture:hover {
+    cursor: pointer;
+    border-color: red;
+}
+
+.InformationContainer {
+    background-color: #272C8F;
+    color: white;
+    padding: 10px;
+    width: 90vw;
+    font-size: clamp(15px, 1vw, 30px);
+    border-radius: 30px;
+}
+
+.InformationContainer a {
+    color: white;
+}
