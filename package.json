@@ -1,12 +1,10 @@
 {
-  "homepage": "http://WaywardFlame.github.io/WaywardFlamePortfolio",
+  "homepage": "https://WaywardFlame.github.io/",
   "name": "portfolio-react-app",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
